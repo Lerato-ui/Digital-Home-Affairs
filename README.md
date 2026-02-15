@@ -2,7 +2,7 @@
 
 This database serves as the backend for the Digital Home Affairs Portal, a web application that allows citizens to apply for official documents online and track their application progress in real-time. The system supports user registration, document applications, payment processing, and complete admin workflow management.
 
-The database was born from an idea sparked during the State of the Nation Address, where the President announced plans to modernize Home Affairs through digital transformation. The vision of citizens being able to apply for documents online without standing in long queues inspired this complete database solution. Now in 2026, this design represents a production-ready system that handles everything from user registration to document processing.
+The database was born from an idea sparked during the State of the Nation Address, where the President announced plans to modernize Home Affairs through digital transformation. The vision of citizens being able to apply for documents online without standing in long queues inspired this complete database solution. This design represents a production-ready system that handles everything from user registration to document processing.
 
 The database consists of twenty-four tables working together seamlessly. At its core are the Users and Admins tables that store citizen and employee information separately for security. The Users table stores citizen information including ID number, email, password hash, personal details, and account status. The Admins table contains employee details with role-based permissions controlling who can approve, process, or delete applications.
 
